@@ -12,8 +12,7 @@
   },
   "swift_versions": "5.0",
   "source": {
-    "http": "https://sdk-download.airbridge.io/airbridge-ios-sdk/4.3.0/Airbridge.zip",
-    "sha256": "c075cb07d1902913088ddbe141bacd80b0b802240742e9dbecf883c75f9eefe1"
+    "http": "https://sdk-internal.airbridge.io/build/airbridge-ios-sdk/Airbridge.zip"
   },
   "preserve_paths": "Airbridge",
   "source_files": "Airbridge/.Source/Airbridge.swift",

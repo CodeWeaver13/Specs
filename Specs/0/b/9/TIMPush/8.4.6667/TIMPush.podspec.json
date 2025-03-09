@@ -16,6 +16,11 @@
   "source": {
     "http": "https://im.sdk.qcloud.com/download/tuiplugin/8.4.6667/ios/TIMPush_8.4.6667.xcframework.zip"
   },
+  "dependencies": {
+    "TXIMSDK_Plus_iOS_XCFramework": [
+      ">= 8.4.6667"
+    ]
+  },
   "vendored_frameworks": "TIMPush.xcframework",
   "resource_bundles": {
     "TIMPush_Privacy": "**/TIMPush.xcframework/ios-arm64/TIMPush.framework/PrivacyInfo.xcprivacy"
