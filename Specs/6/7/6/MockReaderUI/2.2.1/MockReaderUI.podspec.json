@@ -9,7 +9,7 @@
   "authors": "Square",
   "summary": "Enables developers to build use mock readers for testing the MobilePaymentsSDK",
   "platforms": {
-    "ios": "15.0"
+    "ios": "16.0"
   },
   "source": {
     "http": "https://d3eygymyzkbhx3.cloudfront.net/mpsdk/2.2.1/MockReaderUI_d62eea75f1c0.zip"

@@ -9,7 +9,7 @@
   "authors": "Square",
   "summary": "Enables developers to build secure in-person payment solutions",
   "platforms": {
-    "ios": "15.0"
+    "ios": "16.0"
   },
   "source": {
     "http": "https://d3eygymyzkbhx3.cloudfront.net/mpsdk/2.2.1/SquareMobilePaymentsSDK_d62eea75f1c0.zip"
