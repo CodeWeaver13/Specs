@@ -82,34 +82,6 @@
       "dependencies": {
         "Ads-CN/BUAdSDK": [
 
-        ],
-        "Ads-CN/BUAdLive-Framework": [
-
-        ]
-      }
-    },
-    {
-      "name": "CSJMediation-Lib",
-      "vendored_frameworks": [
-        "SDK/CSJMediation.xcframework"
-      ],
-      "dependencies": {
-        "Ads-CN/BUAdSDK": [
-
-        ],
-        "Ads-CN/BUAdLive-Lib": [
-
-        ]
-      }
-    },
-    {
-      "name": "CSJMediation-Only",
-      "vendored_frameworks": [
-        "SDK/CSJMediation.xcframework"
-      ],
-      "dependencies": {
-        "Ads-CN/BUAdSDK": [
-
         ]
       }
     },
