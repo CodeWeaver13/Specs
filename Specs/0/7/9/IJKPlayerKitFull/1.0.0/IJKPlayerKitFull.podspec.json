@@ -24,6 +24,7 @@
   },
   "swift_versions": "5.0",
   "requires_arc": true,
+  "static_framework": true,
   "vendored_frameworks": "IJKPlayerKit/arm64&x86_64/IJKMediaPlayer.xcframework",
   "libraries": [
     "c++",
@@ -43,5 +44,10 @@
     "QuartzCore",
     "VideoToolbox"
   ],
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "GCC_PREPROCESSOR_DEFINITIONS": "$(inherited) WYBasisKit_Supports_MediaPlayer_Full=1",
+    "SWIFT_ACTIVE_COMPILATION_CONDITIONS": "$(inherited) WYBasisKit_Supports_MediaPlayer_Full"
+  },
   "swift_version": "5.0"
 }
