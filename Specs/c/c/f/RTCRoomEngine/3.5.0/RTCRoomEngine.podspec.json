@@ -19,6 +19,7 @@
   "resources": [
     "RTCRoomEngine/RTCRoomEngine.xcframework/ios-arm64_armv7/RTCRoomEngine.framework/PrivacyInfo.xcprivacy"
   ],
+  "frameworks": "CoreTelephony",
   "libraries": [
     "sqlite3"
   ],
